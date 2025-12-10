@@ -1,0 +1,758 @@
+[
+  {
+    "name": "Монтировка",
+    "size": "Средний",
+    "damage_raw": "Ушибы:8",
+    "action": "Монтирование",
+    "department": "Общий / Инженерный",
+    "sell_price": 22,
+    "max_damage": 8
+  },
+  {
+    "name": "Монтикоровка",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:1",
+    "action": "Монтирование",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 0,
+    "max_damage": 1
+  },
+  {
+    "name": "Пожарный топор",
+    "size": "Гигантский",
+    "damage_raw": "Ушибы: 5, Порезы: 10, Структурные: 10",
+    "action": "Монтирование",
+    "department": "Атмосферный",
+    "sell_price": 0,
+    "max_damage": 25
+  },
+  {
+    "name": "Пожарный топор [SYN]",
+    "size": "Гигантский",
+    "damage_raw": "Ушибы: 5, Порезы: 10, Структурные: 10",
+    "action": "Монтирование",
+    "department": "Синдикат",
+    "sell_price": 0,
+    "max_damage": 25
+  },
+  {
+    "name": "Гаечный ключ",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:4.5",
+    "action": "Закрепление",
+    "department": "Общий / Инженерный",
+    "sell_price": 22,
+    "max_damage": 4.5
+  },
+  {
+    "name": "Коровий ключ",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:0.1",
+    "action": "Закрепление",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 0,
+    "max_damage": 0.1
+  },
+  {
+    "name": "Отвёртка",
+    "size": "Маленький",
+    "damage_raw": "Уколы:6",
+    "action": "Свинчивание",
+    "department": "Общий / Инженерный",
+    "sell_price": 30,
+    "max_damage": 6
+  },
+  {
+    "name": "Коровёртка",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:0.1",
+    "action": "Свинчивание",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 0,
+    "max_damage": 0.1
+  },
+  {
+    "name": "Кусачки",
+    "size": "Маленький",
+    "damage_raw": "Уколы:2",
+    "action": "Резка",
+    "department": "Общий / Инженерный",
+    "sell_price": 30,
+    "max_damage": 2
+  },
+  {
+    "name": "Сенорез",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует:0",
+    "action": "Резка",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Сварочный аппарат",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:5 / Термические:8",
+    "action": "Варка",
+    "department": "Общий / Инженерный",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Коровочный аппарат",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:5 / Термические:8",
+    "action": "Варка",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Аварийный сварочный аппарат",
+    "size": "Крошечный",
+    "damage_raw": "Ушибы:5 / Термические:8",
+    "action": "Варка",
+    "department": "Общий",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Промышленный сварочный аппарат",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:5 / Термические:8",
+    "action": "Варка",
+    "department": "Инженерный",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Продвинутый промышленный сварочный аппарат",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:5 / Термические:8",
+    "action": "Варка",
+    "department": "Инженерный",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Экспериментальный сварочный аппарат",
+    "size": "Маленький",
+    "damage_raw": "Ушибы:5 / Термические:8",
+    "action": "Варка",
+    "department": "Инженерный",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "НВ-кабель",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Расходуемое",
+    "department": "Инженерный",
+    "sell_price": 2.25,
+    "max_damage": 0
+  },
+  {
+    "name": "СВ-кабель",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Расходуемое",
+    "department": "Инженерный",
+    "sell_price": 2.25,
+    "max_damage": 0
+  },
+  {
+    "name": "ВВ-кабель",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Расходуемое",
+    "department": "Инженерный",
+    "sell_price": 2.25,
+    "max_damage": 0
+  },
+  {
+    "name": "Металлопенная граната",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Расходуемое",
+    "department": "Инженерный",
+    "sell_price": 350,
+    "max_damage": 0
+  },
+  {
+    "name": "Воздушная граната",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Расходуемое",
+    "department": "Атмосферный",
+    "sell_price": 350,
+    "max_damage": 0
+  },
+  {
+    "name": "РСУ",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Универсальное",
+    "department": "Инженерный",
+    "sell_price": 110,
+    "max_damage": 0
+  },
+  {
+    "name": "Омнитул",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Универсальное",
+    "department": "Инженерный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Подарок",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Общий",
+    "sell_price": 201.055,
+    "max_damage": 0
+  },
+  {
+    "name": "Атмос голопроектор",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Голографическое",
+    "department": "Атмосферный",
+    "sell_price": 158,
+    "max_damage": 0
+  },
+  {
+    "name": "Проектор голобарьера",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Голографическое",
+    "department": "Служба безопасности",
+    "sell_price": 158,
+    "max_damage": 0
+  },
+  {
+    "name": "Проектор силового поля",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Голографическое",
+    "department": "Научный",
+    "sell_price": 220,
+    "max_damage": 0
+  },
+  {
+    "name": "Проектор голографических знаков",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Голографическое",
+    "department": "Сервис",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Проектор голокожурки",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Голографическое",
+    "department": "Сервис",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Парикмахерские ножницы",
+    "size": "Маленький",
+    "damage_raw": "Уколы: 6",
+    "action": "Уникальное",
+    "department": "Общий",
+    "sell_price": 0,
+    "max_damage": 6
+  },
+  {
+    "name": "Воспламенитель",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Общий / Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Блюспейс-шприц",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Медицинский",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Криостазисный шприц",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Медицинский",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Мини-шприц",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Медицинский",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Шприц",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Медицинский",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Гипоручка",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Синдикат",
+    "sell_price": 75,
+    "max_damage": 0
+  },
+  {
+    "name": "Гиподротик",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Синдикат",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Горлекс гипоспрей",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Синдикат",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Гипоспрей",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Медицинский",
+    "sell_price": 750,
+    "max_damage": 0
+  },
+  {
+    "name": "Лампозаменитель",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Введение",
+    "department": "Сервис",
+    "sell_price": 100,
+    "max_damage": 0
+  },
+  {
+    "name": "Ручка",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Общий",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Перьевые ручки",
+    "size": "Крошечный",
+    "damage_raw": "Уколы: 3",
+    "action": "Уникальное",
+    "department": "Командный",
+    "sell_price": 0,
+    "max_damage": 3
+  },
+  {
+    "name": "Магическая ручка",
+    "size": "Крошечный",
+    "damage_raw": "Уколы: 3",
+    "action": "Уникальное",
+    "department": "Федерация Магов",
+    "sell_price": 0,
+    "max_damage": 3
+  },
+  {
+    "name": "Мелок",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Сервис",
+    "sell_price": 11,
+    "max_damage": 0
+  },
+  {
+    "name": "Электрический мелок",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Сервис",
+    "sell_price": 5,
+    "max_damage": 0
+  },
+  {
+    "name": "ручка Cybersun",
+    "size": "Крошечный",
+    "damage_raw": "Уколы: 3 / Уколы: 15",
+    "action": "Универсальное",
+    "department": "Синдикат",
+    "sell_price": 500,
+    "max_damage": 15
+  },
+  {
+    "name": "ручка Центкома",
+    "size": "Крошечный",
+    "damage_raw": "Уколы: 3 / Уколы: 15",
+    "action": "Универсальное",
+    "department": "Центральное командование",
+    "sell_price": 0,
+    "max_damage": 15
+  },
+  {
+    "name": "Оценочный инструмент",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Карго",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Ручной этикетировщик",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Уникальное",
+    "department": "Общий",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Мешок для мусора",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Перемещение",
+    "department": "Сервис",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Мешок для тела",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Перемещение",
+    "department": "Медицинский",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Швабра",
+    "size": "Большой",
+    "damage_raw": "Ушибы: 10",
+    "action": "Перемещение",
+    "department": "Сервис",
+    "sell_price": 0,
+    "max_damage": 10
+  },
+  {
+    "name": "Продвинутая швабра",
+    "size": "Большой",
+    "damage_raw": "Ушибы: 10",
+    "action": "Перемещение",
+    "department": "Сервис",
+    "sell_price": 0,
+    "max_damage": 10
+  },
+  {
+    "name": "Силовая пушка",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Перемещение",
+    "department": "Научный",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Гравипушка",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Перемещение",
+    "department": "Научный",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Инвертор квантового спина",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Перемещение",
+    "department": "Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Фонарик",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Свет",
+    "department": "Общий",
+    "sell_price": 40,
+    "max_damage": 0
+  },
+  {
+    "name": "Фонарик СБ",
+    "size": "Маленький",
+    "damage_raw": "Ушибы: 10",
+    "action": "Свет",
+    "department": "Служба безопасности",
+    "sell_price": 40,
+    "max_damage": 10
+  },
+  {
+    "name": "Светильник",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Свет",
+    "department": "Общий",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Тыквенный фонарик",
+    "size": "Средний",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Свет",
+    "department": "Общий",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Химсвет",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Свет",
+    "department": "Общий",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Осколки кристалла",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Свет",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Ядра аномалий",
+    "size": "Крошечный",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Свет",
+    "department": "Научный",
+    "sell_price": 10000,
+    "max_damage": 0
+  },
+  {
+    "name": "Газоанализатор",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Общий / Инженерный",
+    "sell_price": 80,
+    "max_damage": 0
+  },
+  {
+    "name": "Молокоанализатор",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Анализатор здоровья",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Медицинский",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Криминалистический сканер",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Служба безопасности",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Продвинутый сканер минералов",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Карго",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Сканер минералов",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Карго",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Ручной сканер массы",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Карго",
+    "sell_price": 150,
+    "max_damage": 0
+  },
+  {
+    "name": "Сканер аномалий",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Сканер узлов",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Локатор аномалий",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Т-лучевой сканер",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Общий / Инженерный",
+    "sell_price": 85,
+    "max_damage": 0
+  },
+  {
+    "name": "Счётчик Гейгера",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Общий / Инженерный, Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Портативный монитор экипажа",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Медицинский",
+    "sell_price": 500,
+    "max_damage": 0
+  },
+  {
+    "name": "Локатор аномалий широкого спектра",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Сканирование",
+    "department": "Научный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Передатчик сигналов",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка",
+    "department": "Общий / Научный",
+    "sell_price": 40,
+    "max_damage": 0
+  },
+  {
+    "name": "Мультитул",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка, Пульсирование",
+    "department": "Инженерный",
+    "sell_price": 56,
+    "max_damage": 0
+  },
+  {
+    "name": "Муультитул",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка, Пульсирование",
+    "department": "Не стандартное снаряжение",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Конфигуратор доступа",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка",
+    "department": "Инженерный",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Конфигуратор сетей",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка",
+    "department": "Общий / Инженерный",
+    "sell_price": 56,
+    "max_damage": 0
+  },
+  {
+    "name": "Краскопульт",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка",
+    "department": "Общий / Инженерный",
+    "sell_price": 40,
+    "max_damage": 0
+  },
+  {
+    "name": "Пульты от шлюзов",
+    "size": "Маленький",
+    "damage_raw": "Отсутствует: 0",
+    "action": "Настройка",
+    "department": "Командный",
+    "sell_price": 0,
+    "max_damage": 0
+  }
+]

@@ -13,7 +13,7 @@ fetch('tools.json')
 
 function startNewGame() {
     targetItem = database[Math.floor(Math.random() * database.length)];
-    console.log("Загадано (для теста):", targetItem.name);
+    //console.log("Загадано (для теста):", targetItem.name);
 }
 
 const input = document.getElementById('guessInput');

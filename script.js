@@ -1,9 +1,20 @@
 let database = [];
 let targetItem = null;
 
-const SIZE_RANK = { "Крошечный": 1, "Маленький": 2, "Средний": 3, "Большой": 4, "Гигантский": 5 };
+const SIZE_RANK = { "Крошечный": 1, "Tiny": 1, 
+    "Маленький": 2, "Small": 2, 
+    "Средний": 3, "Medium": 3,
+    "Большой": 4, "Large": 4,
+    "Гигантский": 5, "Ginormous":5 };
 
-fetch('tools.json')
+const locales = {
+  ru: "locale/toolsRu.json",
+  en: "locale/toolsEn.json"
+};
+
+let selectedLocale = 'ru';
+
+fetch(locales[selectedLocale])
     .then(response => response.json())
     .then(data => {
         database = data;
@@ -121,3 +132,33 @@ function formatDamage(guess, target) {
         <span style="font-size:1.2em">${arrow}</span>
     </div>`;
 }
+
+const langToggle = document.getElementById('langToggle');
+
+langToggle.addEventListener('click', async () => {
+    const targetIndex = database.indexOf(targetItem);
+
+    selectedLocale = selectedLocale === 'ru' ? 'en' : 'ru';
+    langToggle.textContent = selectedLocale === 'ru' ? 'EN' : 'RU';
+
+    try {
+        const response = await fetch(locales[selectedLocale]);
+        database = await response.json();
+
+        if (targetIndex !== -1 && database[targetIndex]) {
+            targetItem = database[targetIndex];
+            //console.log("Цель обновлена на:", targetItem.name);
+        } 
+        else {
+            startNewGame();
+        }
+        suggestionsBox.innerHTML = '';
+        input.value = '';
+
+    } catch (error) {
+        console.error('Ошибка загрузки локали:', error);
+        // Откат языка, если загрузка упала
+        selectedLocale = selectedLocale === 'ru' ? 'en' : 'ru';
+    }
+});
+

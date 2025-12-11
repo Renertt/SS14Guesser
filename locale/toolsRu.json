@@ -221,7 +221,7 @@
     "damage_raw": "Отсутствует: 0",
     "action": "Голографическое",
     "department": "Атмосферный",
-    "sell_price": 158,
+    "sell_price": 50,
     "max_damage": 0
   },
   {
@@ -230,7 +230,7 @@
     "damage_raw": "Отсутствует: 0",
     "action": "Голографическое",
     "department": "Служба безопасности",
-    "sell_price": 158,
+    "sell_price": 50,
     "max_damage": 0
   },
   {
@@ -239,7 +239,7 @@
     "damage_raw": "Отсутствует: 0",
     "action": "Голографическое",
     "department": "Научный",
-    "sell_price": 220,
+    "sell_price": 130,
     "max_damage": 0
   },
   {
@@ -248,7 +248,7 @@
     "damage_raw": "Отсутствует: 0",
     "action": "Голографическое",
     "department": "Сервис",
-    "sell_price": 108,
+    "sell_price": 0,
     "max_damage": 0
   },
   {

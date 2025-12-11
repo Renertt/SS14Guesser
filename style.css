@@ -51,3 +51,33 @@ tr {
 .list-group-item:hover {
     background-color: #343a40;
 }
+
+.lang-btn-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.lang-btn {
+  background-color: #495057;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  background-color: #5a6268;
+  transform: scale(1.1);
+}
+
+.lang-btn:active {
+  transform: scale(0.95);
+}

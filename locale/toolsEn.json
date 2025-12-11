@@ -1,0 +1,758 @@
+[
+  {
+    "name": "Crowbar",
+    "size": "Medium",
+    "damage_raw": "Blunt:8",
+    "action": "Prying",
+    "department": "General / Engineering",
+    "sell_price": 22,
+    "max_damage": 8
+  },
+  {
+    "name": "Cowbar",
+    "size": "Small",
+    "damage_raw": "Blunt:1",
+    "action": "Prying",
+    "department": "Non-standard Equipment",
+    "sell_price": 0,
+    "max_damage": 1
+  },
+  {
+    "name": "Fire Axe",
+    "size": "Ginormous",
+    "damage_raw": "Blunt: 5, Slash: 10, Structural: 10",
+    "action": "Prying",
+    "department": "Atmospheric",
+    "sell_price": 0,
+    "max_damage": 25
+  },
+  {
+    "name": "Fire Axe [SYN]",
+    "size": "Ginormous",
+    "damage_raw": "Blunt: 5, Slash: 10, Structural: 10",
+    "action": "Prying",
+    "department": "Syndicate",
+    "sell_price": 0,
+    "max_damage": 25
+  },
+  {
+    "name": "Wrench",
+    "size": "Small",
+    "damage_raw": "Blunt:4.5",
+    "action": "Anchoring",
+    "department": "General / Engineering",
+    "sell_price": 22,
+    "max_damage": 4.5
+  },
+  {
+    "name": "Wronch",
+    "size": "Small",
+    "damage_raw": "Blunt:0.1",
+    "action": "Anchoring",
+    "department": "Non-standard Equipment",
+    "sell_price": 0,
+    "max_damage": 0.1
+  },
+  {
+    "name": "Screwdriver",
+    "size": "Small",
+    "damage_raw": "Puncture:6",
+    "action": "Screwing",
+    "department": "General / Engineering",
+    "sell_price": 30,
+    "max_damage": 6
+  },
+  {
+    "name": "Moodriver",
+    "size": "Small",
+    "damage_raw": "Blunt:0.1",
+    "action": "Screwing",
+    "department": "Non-standard Equipment",
+    "sell_price": 0,
+    "max_damage": 0.1
+  },
+  {
+    "name": "Wirecutter",
+    "size": "Small",
+    "damage_raw": "Puncture:2",
+    "action": "Cutting",
+    "department": "General / Engineering",
+    "sell_price": 30,
+    "max_damage": 2
+  },
+  {
+    "name": "Haycutter",
+    "size": "Small",
+    "damage_raw": "None:0",
+    "action": "Cutting",
+    "department": "Non-standard Equipment",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Welding tool",
+    "size": "Small",
+    "damage_raw": "Blunt:5 / Heat:8",
+    "action": "Welding",
+    "department": "General / Engineering",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Cowelding tool",
+    "size": "Small",
+    "damage_raw": "Blunt:5 / Heat:8",
+    "action": "Welding",
+    "department": "Non-standard Equipment",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Emergency welding tool",
+    "size": "Tiny",
+    "damage_raw": "Blunt:5 / Heat:8",
+    "action": "Welding",
+    "department": "General",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Industrial welding tool",
+    "size": "Small",
+    "damage_raw": "Blunt:5 / Heat:8",
+    "action": "Welding",
+    "department": "Engineering",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Advanced industrial welding tool",
+    "size": "Small",
+    "damage_raw": "Blunt:5 / Heat:8",
+    "action": "Welding",
+    "department": "Engineering",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "Experimental welding tool",
+    "size": "Small",
+    "damage_raw": "Blunt:5 / Heat:8",
+    "action": "Welding",
+    "department": "Engineering",
+    "sell_price": 40,
+    "max_damage": 8
+  },
+  {
+    "name": "HV cable",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Consumable",
+    "department": "Engineering",
+    "sell_price": 2.25,
+    "max_damage": 0
+  },
+  {
+    "name": "MV cable",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Consumable",
+    "department": "Engineering",
+    "sell_price": 2.25,
+    "max_damage": 0
+  },
+  {
+    "name": "LV cable",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Consumable",
+    "department": "Engineering",
+    "sell_price": 2.25,
+    "max_damage": 0
+  },
+  {
+    "name": "Metal foam grenade",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Consumable",
+    "department": "Engineering",
+    "sell_price": 350,
+    "max_damage": 0
+  },
+  {
+    "name": "Air grenade",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Consumable",
+    "department": "Atmospheric",
+    "sell_price": 350,
+    "max_damage": 0
+  },
+  {
+    "name": "RCD",
+    "size": "Medium",
+    "damage_raw": "None: 0",
+    "action": "Universal",
+    "department": "Engineering",
+    "sell_price": 110,
+    "max_damage": 0
+  },
+  {
+    "name": "Omnitool",
+    "size": "Medium",
+    "damage_raw": "None: 0",
+    "action": "Universal",
+    "department": "Engineering",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Present",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "General",
+    "sell_price": 201.055,
+    "max_damage": 0
+  },
+  {
+    "name": "Holofan projector",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Holographic",
+    "department": "Atmospheric",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Holobarrier projector",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Holographic",
+    "department": "Security",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Force field projector",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Holographic",
+    "department": "R&D",
+    "sell_price": 130,
+    "max_damage": 0
+  },
+  {
+    "name": "Holographic sign projector",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Holographic",
+    "department": "Service",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Holopeel projector",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Holographic",
+    "department": "Service",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Barber scissors",
+    "size": "Small",
+    "damage_raw": "Puncture: 6",
+    "action": "Unique",
+    "department": "General",
+    "sell_price": 0,
+    "max_damage": 6
+  },
+  {
+    "name": "Igniter",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "General / R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Bluespace syringe",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Medical",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Cryostasis syringe",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Medical",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Mini syringe",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Medical",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Syringe",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Medical",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Hypopen",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Syndicate",
+    "sell_price": 75,
+    "max_damage": 0
+  },
+  {
+    "name": "HypoDart",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Syndicate",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Gorlex hypospray",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Syndicate",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Hypospray",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Medical",
+    "sell_price": 750,
+    "max_damage": 0
+  },
+  {
+    "name": "Light replacer",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Injection",
+    "department": "Service",
+    "sell_price": 100,
+    "max_damage": 0
+  },
+  {
+    "name": "Pen",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "General",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Feather pen",
+    "size": "Tiny",
+    "damage_raw": "Puncture: 3",
+    "action": "Unique",
+    "department": "Command",
+    "sell_price": 0,
+    "max_damage": 3
+  },
+  {
+    "name": "Magic pen",
+    "size": "Tiny",
+    "damage_raw": "Puncture: 3",
+    "action": "Unique",
+    "department": "Wizard Federation",
+    "sell_price": 0,
+    "max_damage": 3
+  },
+  {
+    "name": "Crayon",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "Service",
+    "sell_price": 11,
+    "max_damage": 0
+  },
+  {
+    "name": "Electric crayon",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "Service",
+    "sell_price": 5,
+    "max_damage": 0
+  },
+  {
+    "name": "Cybersun pen",
+    "size": "Tiny",
+    "damage_raw": "Puncture: 3 / Puncture: 15",
+    "action": "Universal",
+    "department": "Syndicate",
+    "sell_price": 500,
+    "max_damage": 15
+  },
+  {
+    "name": "CentComm pen",
+    "size": "Tiny",
+    "damage_raw": "Puncture: 3 / Puncture: 15",
+    "action": "Universal",
+    "department": "Central Command",
+    "sell_price": 0,
+    "max_damage": 15
+  },
+  {
+    "name": "Appraisal tool",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "Cargo",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Hand labeler",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Unique",
+    "department": "General",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Trash bag",
+    "size": "Medium",
+    "damage_raw": "None: 0",
+    "action": "Movement",
+    "department": "Service",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Body Bag",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Movement",
+    "department": "Medical",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Mop",
+    "size": "Large",
+    "damage_raw": "Blunt: 10",
+    "action": "Movement",
+    "department": "Service",
+    "sell_price": 0,
+    "max_damage": 10
+  },
+  {
+    "name": "Advanced Mop",
+    "size": "Large",
+    "damage_raw": "Blunt: 10",
+    "action": "Movement",
+    "department": "Service",
+    "sell_price": 0,
+    "max_damage": 10
+  },
+  {
+    "name": "Force gun",
+    "size": "Medium",
+    "damage_raw": "None: 0",
+    "action": "Movement",
+    "department": "R&D",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Tether gun",
+    "size": "Medium",
+    "damage_raw": "None: 0",
+    "action": "Movement",
+    "department": "R&D",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Quantum spin inverter",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Movement",
+    "department": "R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Flashlight",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Light",
+    "department": "General",
+    "sell_price": 40,
+    "max_damage": 0
+  },
+  {
+    "name": "Seclight",
+    "size": "Small",
+    "damage_raw": "Blunt: 10",
+    "action": "Light",
+    "department": "Security",
+    "sell_price": 40,
+    "max_damage": 10
+  },
+  {
+    "name": "Lantern",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Light",
+    "department": "General",
+    "sell_price": 108,
+    "max_damage": 0
+  },
+  {
+    "name": "Jack o' lantern",
+    "size": "Medium",
+    "damage_raw": "None: 0",
+    "action": "Light",
+    "department": "General",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Glowstick",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Light",
+    "department": "General",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Crystal shards",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Light",
+    "department": "Non-standard Equipment",
+    "sell_price": 50,
+    "max_damage": 0
+  },
+  {
+    "name": "Anomaly Cores",
+    "size": "Tiny",
+    "damage_raw": "None: 0",
+    "action": "Light",
+    "department": "R&D",
+    "sell_price": 10000,
+    "max_damage": 0
+  },
+  {
+    "name": "Gas analyzer",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "General / Engineering",
+    "sell_price": 80,
+    "max_damage": 0
+  },
+  {
+    "name": "Milkalyzer",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Non-standard Equipment",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Health analyzer",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Medical",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Forensic scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Security",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Advanced mineral scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Cargo",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Mineral scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Cargo",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Handheld mass scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Cargo",
+    "sell_price": 150,
+    "max_damage": 0
+  },
+  {
+    "name": "Anomaly scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Node scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Anomaly locator",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "T-ray scanner",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "General / Engineering",
+    "sell_price": 85,
+    "max_damage": 0
+  },
+  {
+    "name": "Geiger counter",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "General / Engineering, R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Handheld crew monitor",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "Medical",
+    "sell_price": 500,
+    "max_damage": 0
+  },
+  {
+    "name": "Wide-spectrum anomaly locator",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Scanning",
+    "department": "R&D",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Remote signaller",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration",
+    "department": "General / R&D",
+    "sell_price": 40,
+    "max_damage": 0
+  },
+  {
+    "name": "Multitool",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration, Pulsing",
+    "department": "Engineering",
+    "sell_price": 56,
+    "max_damage": 0
+  },
+  {
+    "name": "Mooltitool",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration, Pulsing",
+    "department": "Non-standard Equipment",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Access Configurator",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration",
+    "department": "Engineering",
+    "sell_price": 0,
+    "max_damage": 0
+  },
+  {
+    "name": "Network Configurator",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration",
+    "department": "General / Engineering",
+    "sell_price": 56,
+    "max_damage": 0
+  },
+  {
+    "name": "Spray painter",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration",
+    "department": "General / Engineering",
+    "sell_price": 40,
+    "max_damage": 0
+  },
+  {
+    "name": "Door Remote",
+    "size": "Small",
+    "damage_raw": "None: 0",
+    "action": "Configuration",
+    "department": "Command",
+    "sell_price": 0,
+    "max_damage": 0
+  }
+]

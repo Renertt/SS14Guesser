@@ -88,6 +88,7 @@ function makeGuess(guess) {
 
     tbody.prepend(row);
     input.value = '';
+    suggestionsBox.innerHTML = '';
 
     if (guess.name === targetItem.name) {
         setTimeout(() => alert("ПОБЕДА! 🎉"), 100);

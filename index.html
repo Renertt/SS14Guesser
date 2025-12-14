@@ -24,7 +24,7 @@
         <div class="col-md-6 position-relative">
             <div class="input-group">
                 <input type="text" id="guessInput" class="form-control" placeholder="Введите название предмета..." autocomplete="off">
-                <button class="btn btn-primary" id="guessBtn">Угадать</button>
+                <button class="btn btn-primary" id="guessBtn"></button>
             </div>
             <!-- Выпадающие подсказки -->
             <div id="suggestions" class="list-group position-absolute w-100" style="z-index: 1000;"></div>
@@ -35,13 +35,13 @@
     <div class="table-responsive">
         <table class="table table-bordered text-center align-middle">
             <thead>
-                <tr>
-                    <th>Предмет</th>
-                    <th>Отдел</th>
-                    <th>Цена</th>
-                    <th>Размер</th>
-                    <th>Урон</th>
-                    <th>Действие</th>
+                <tr">
+                    <th id="headOne"></th>
+                    <th id="headTwo"></th>
+                    <th id="headThree"></th>
+                    <th id="headFour"></th>
+                    <th id="headFive"></th>
+                    <th id="headSix"></th>
                 </tr>
             </thead>
             <tbody id="resultsTable">
@@ -52,7 +52,7 @@
 </div>
 
 <div id="language-switcher" class="lang-btn-container">
-  <button id="langToggle" class="lang-btn">EN</button>
+  <button id="langToggle" class="lang-btn"> </button>
 </div>
 
 <script src="script.js"></script>

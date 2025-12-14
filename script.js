@@ -1,5 +1,17 @@
 let database = [];
 let targetItem = null;
+const thead = document.getElementById('headTable');
+const tbody = document.getElementById('resultsTable');
+const input = document.getElementById('guessInput');
+const suggestionsBox = document.getElementById('suggestions');
+const langToggle = document.getElementById('langToggle');
+const headOne = document.getElementById('headOne')
+const headTwo = document.getElementById('headTwo')
+const headThree = document.getElementById('headThree')
+const headFour = document.getElementById('headFour')
+const headFive = document.getElementById('headFive')
+const headSix = document.getElementById('headSix')
+const guessBtn = document.getElementById('guessBtn')
 
 const SIZE_RANK = { "Крошечный": 1, "Tiny": 1, 
     "Маленький": 2, "Small": 2, 
@@ -12,7 +24,23 @@ const locales = {
   en: "locale/toolsEn.json"
 };
 
-let selectedLocale = 'ru';
+const elementTranslations = {
+    ru: ['Предмет', 'Отдел', 'Цена', 'Размер', 'Урон', 'Действие', 'Угадать'],
+    en: ['Item', 'Department', 'Price', 'Size', 'Damage', 'Action', 'Guess']
+};
+
+const uiTranslations = {
+    ru: { placeholder: "Введите название предмета..." },
+    en: { placeholder: "Enter item name..." }
+};
+
+const localeElements = [headOne, headTwo, headThree, headFour, headFive, headSix, guessBtn];
+
+let selectedLocale = 'en';
+langToggle.textContent = 'RU';
+
+updateElements(selectedLocale)
+input.placeholder = uiTranslations[selectedLocale].placeholder;
 
 fetch(locales[selectedLocale])
     .then(response => response.json())
@@ -27,8 +55,11 @@ function startNewGame() {
     //console.log("Загадано (для теста):", targetItem.name);
 }
 
-const input = document.getElementById('guessInput');
-const suggestionsBox = document.getElementById('suggestions');
+function updateElements(lang) {
+    localeElements.forEach((h, index) => {
+        h.textContent = elementTranslations[lang][index];
+    });
+}
 
 input.addEventListener('input', () => {
     const query = input.value.toLowerCase();
@@ -50,14 +81,13 @@ input.addEventListener('input', () => {
     });
 });
 
-document.getElementById('guessBtn').addEventListener('click', () => {
+guessBtn.addEventListener('click', () => {
     const name = input.value;
     const item = database.find(i => i.name.toLowerCase() === name.toLowerCase());
     if (item) makeGuess(item);
 });
 
 function makeGuess(guess) {
-    const tbody = document.getElementById('resultsTable');
     const row = document.createElement('tr');
 
     row.innerHTML += `<td><div class="square ${guess.name === targetItem.name ? 'correct' : 'wrong'}">${guess.name}</div></td>`;
@@ -134,13 +164,14 @@ function formatDamage(guess, target) {
     </div>`;
 }
 
-const langToggle = document.getElementById('langToggle');
-
 langToggle.addEventListener('click', async () => {
     const targetIndex = database.indexOf(targetItem);
 
     selectedLocale = selectedLocale === 'ru' ? 'en' : 'ru';
     langToggle.textContent = selectedLocale === 'ru' ? 'EN' : 'RU';
+
+    updateElements(selectedLocale)
+    input.placeholder = uiTranslations[selectedLocale].placeholder;
 
     try {
         const response = await fetch(locales[selectedLocale]);

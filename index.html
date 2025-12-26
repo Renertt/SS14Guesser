@@ -20,25 +20,25 @@
 <body>
 
 <div id="sidebar" class="sidebar">
-    <h4 class="text-white px-3 pt-3">Режимы игры</h4>
+    <h4 class="text-white px-3 pt-3" is="gameMode">Game mode</h4>
     <ul class="nav flex-column px-3">
         <li class="nav-item mb-2">
-            <a class="nav-link text-white" href="toolGuess.html">Угадай инструмент</a>
+            <a class="nav-link text-white" href="toolGuess.html" is="guessToolMode">Guess tool</a>
         </li>
         <li class="nav-item mb-2">
-            <a class="nav-link text-white" href="index.html">Угадывай экипировку (в разработке)</a>
+            <a class="nav-link text-white" href="index.html" id ="guessEquipMode">Guess equipment (IN DEVELOPMENT)</a>
         </li>
     </ul>
 </div>
 
 <div id="main-content" class="main-content">
-    <button id="menu-toggle" class="btn btn-outline-light mt-3 ms-3">☰ Меню</button>
+    <button id="menu-toggle" class="btn btn-outline-light mt-3 ms-3">☰</button>
 
     <div class="container mt-5">
         <h1 class="text-white">Добро пожаловать в SS14 Guesser!</h1>
-        <p class="text-secondary">
-            Здесь ты можешь проверить свои знания о вселенной Space Station 14.<br>
-            Выбери один из режимов в меню слева.
+        <p class="text-secondary" id="secondaryText">
+            Here you can check your knowledge of items in Space Station 14<br>
+            Choose one of the mods in the menu at the left
         </p>
     </div>
 </div>
